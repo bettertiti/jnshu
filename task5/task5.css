@@ -1,0 +1,27 @@
+*{margin:0;padding:0;font-size:62.5%;}
+html{max-width:720px;overflow:hidden;}
+.header,.mainbody,.footer{width:100%;max-width: 720px;position: absolute;left:0;right:0;margin:0 auto;}
+.header{height:40px;background-color: #68cdd5;line-height:40px;top:0;}
+.mainbody{top:190px;bottom:60px;overflow: auto;}
+.footer{height:50px;bottom:10px;}
+.header1{font-size:1.8rem;color:white;text-decoration:none;position: absolute;left:8px; line-height:40px;}
+.header2{font-size:1.8rem;color:white;position: absolute;left:50%;margin-left: -4rem;line-height:40px;}
+.header3{width:100%;height:150px;position:absolute;top:40px;background: url(images/task5-header_03_03.png)no-repeat;background-size:100% 100%;}
+.header4{position:absolute;left:10px;top:19px;}
+
+ol{width:96%;padding:1.3rem 0 1.3rem 1rem;border-bottom: solid #e1e5e7;margin:0 auto;position: relative;}
+.list1-1{box-sizing:border-box;width:100%;}
+.list1-2{font-size: 1.1rem;font-weight:600;border-left: solid #68cdd5 0.3rem;padding-left: 0.8rem;}
+
+.list2-1{background:url(images/task5-icon1_03.png)no-repeat 0 center;background-size:30%;position: absolute;left:2rem;}
+.list2-2{font-size:1.1rem;font-weight:600;display: inline-block;margin-left: 1.5rem;}
+.list2-3{margin-left:1.5rem;}
+.list2-4{background:url(images/task5-icon1_03.png)no-repeat 0 center;background-size:24%;margin-left:4rem;}
+.list3-1{font-size: 1.1rem;font-weight:600;color:#999999;padding-right:1.2rem;border-right:solid 1px #999999;position: absolute;left:2rem;}
+.list3-2{font-size:1.1rem;font-weight: 600;margin-left: 7.8rem;}
+.list3-3{font-size:1.1rem;font-weight: 600;color:#e26163;margin-left: 7.8rem;}
+.list3-4{font-size: 1.1rem;font-weight:600;color:#999999;padding-right:1.2rem;border-right:solid 1px #999999;position: absolute;left:2rem;top:50%;margin-top:-0.7rem;}
+.list3-5{font-size:1.1rem;font-weight: 600;margin-left:7.8rem;display: inline-block;}
+
+.button1{cursor:pointer;box-sizing:border-box;width:44%;height:50px;border: solid  #68cdd5 0.2rem;border-radius:10px;background-color: white;position: absolute;left:4%;font-size: 2rem;color:#68cdd5;outline:none;}
+.button2{cursor:pointer;box-sizing:border-box;width:44%;height:50px;border: solid  #68cdd5 0.2rem;border-radius:10px;background-color: #68cdd5;position: absolute;right:4%;font-size: 2rem;color: white;outline:none;}
