@@ -32,8 +32,6 @@ body{
     width:100%;
     background-color: #29b078;
     vertical-align: middle;
-    height:5.5rem;
-    line-height:5.5rem;
 }
 .header1-h2{
     width:70%;
@@ -61,15 +59,13 @@ body{
     font-size:1.2rem;
     color:white;
     padding:0 5px;
-    border-bottom: solid 2px #29b078;
-    border-top: solid 2px #29b078;
-    height:5.5rem;
-    line-height:5.5rem;
+    line-height:48px;
 }
 .h2-1:hover{
-    border-bottom: solid 2px white;
+    border-bottom:2px solid white;
     color:white;
     text-decoration: none;
+    margin-bottom: -2px;
 }
 .mainbody{
     background-color: #fafafa;
