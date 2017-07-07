@@ -51,7 +51,7 @@ body{
 }
 .header1-2-1{
     display: inline-block;
-
+    margin-bottom: -1.5px;
 }
 
 .h2-1{
@@ -59,6 +59,9 @@ body{
     font-size:1.2rem;
     color:white;
     padding:0 5px;
+   line-height:48px;
+    /*border-bottom: solid 2px #29b078;*/
+    /*border-top: solid 2px #29b078;*/
 
 
 }
