@@ -43,34 +43,10 @@ body{
     width:100%;
     background-color: #29b078;
     vertical-align: middle;
+    text-align: center;
 
 }
-.header1-h2{
-    width:70%;
-    display: inline-block;
-}
-.header1-2-1{
-    display: inline-block;
-    margin-bottom: -1.5px;
-}
 
-.h2-1{
-    display: inline-block;
-    font-size:1.2rem;
-    color:white;
-    padding:0 5px;
-   line-height:48px;
-    /*border-bottom: solid 2px #29b078;*/
-    /*border-top: solid 2px #29b078;*/
-
-
-}
-.h2-1:hover{
-    border-bottom: solid 2px white;
-    margin-bottom:-2px;
-    color:white;
-    text-decoration: none;
-}
 .mainbody{
     width:100%;
     text-align: center;
@@ -219,7 +195,6 @@ body{
 .m3-1{
     display: inline-block;
     width:19%;
-    /*position: relative;*/
     margin-right:10px;
     vertical-align: middle;
 }
@@ -307,6 +282,7 @@ body{
     text-align: center;
     background-color: #ffffff;
 
+
 }
 .foot1-1{
     color:black;
@@ -315,6 +291,12 @@ body{
     height:2.6rem;
     line-height: 2.6rem;
 }
+.foot1-2{
+    width:83%;
+    display: inline-block;
+    text-align: center;
+
+}
 .foot1-2-1{
     display: inline-block;
 }
@@ -322,18 +304,21 @@ body{
     display: inline-block;
 }
 .ul1{
-    list-style: inside ;
+    list-style: none;
     color:#999999;
-    font-size: 0.6rem;
-    width:8rem;
-    float: left;
-    /*display: inline-block;*/
-    margin-right: 10px;
+    font-size: 2rem;
+    width:6rem;
+    /*float: left;*/
+    display: inline-block;
+    margin-right: 5px;
+
 }
-li{
-    margin:5px ;
-    width:7.5rem;
+.footli{
+    margin:5px 0 ;
+    width:6rem;
+    background: url(images/circleicon.png)no-repeat 0 center;
 }
+
 a{
     color:#999999;
 }
@@ -428,7 +413,34 @@ li:hover{
     color:#ffffff;
 }
 
-@media screen and (max-width: 398px) {
+
+@media screen and (max-width: 670px){
+    .m3-1{
+        width:100%;
+        text-align:center;
+        margin:0 0 1rem 0;
+    }
+    .m3{
+        margin:0 ;
+    }
+    .text3-1{
+        width:47%;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 683px) {
+    .foot3-2{
+        width:100%;
+        clear:both;
+        text-align: center;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 566px) {
     .foot3-1{
         width:100%;
         text-align: center;
@@ -437,59 +449,77 @@ li:hover{
         text-align: center;
     }
 }
-@media screen and (max-width: 670px){
-    .m3-1{
-        width:100%;
-        text-align:center;
-        margin:0;
-    }
-    .text3-1{
-        width:47%;
-    }
 
-    .arrow{
-        width: 0;
-    }
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color:#186948 ;
+}
 
+.navbar-inverse .navbar-toggle {
+    border-color: #29b078;
 }
-@media screen and (max-width: 569px) {
-    .foot3-2{
-        width:100%;
-        clear:both;
-        text-align: center;
-        margin-right:0;
-    }
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #29b078;
 }
-.navbtn{
-    float: right;
-    width:30px;
-    height: 30px;
-    background-image: url(images/button.png);
-    background-size: 100% 100%;
+.navbar-inverse .navbar-collapse{
+    background-color: #29b078;
+}
+.navbar-inverse {
+    background-color:#29b078;
     border: none;
-    margin-top: 10px;
-    display: none;
 }
-.navbtn:focus{
-    outline: none;
+.navbar-collapse{
+    border: none;
 }
-#demo{
-    background-color:#29b078 ;
-    border-top: #b5b5b5 solid 1px;
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
 }
-.navcol{
-    font-size:1.2rem;
-    color:white;
-    text-align: center;
-    height:30px;
-    line-height: 30px;
+.navfont{
+    font-size: 1.5rem;
+    color: white;
+
+}
+.navli{
+    margin:0 auto;
+    width:4.5rem;
 }
 
-@media screen and (max-width: 768px){
-    .navbtn{
-        display:inline-block;
-    }
-    .h2-1{
-        display: none;
+.navli:hover{
+    border-bottom: solid 1px white;
+    margin-bottom: -1px;
+}
+.nav>li>a{
+    padding:15px 0;
+}
+.h1-t1{
+    font-size: 2rem;
+    color:#ffffff;
+}
+.h1-t2{
+    font-size: 0.8rem;
+    color:#ffffff;
+}
+.container{
+    width:70%;
+    padding:0;
+}
+.navbar-collapse{
+    padding:0;
+}
+.navbar-nav{
+    width: 100%;
+    margin:0;
+}
+
+.header1-2-2{
+    float: left;
+    margin:0.6rem 0 0 1.5rem ;
+}
+
+@media screen and (min-width: 768px){
+    .header1-2-2{
+        margin-top:0.6rem   ;
+        margin-left:0;
     }
 }

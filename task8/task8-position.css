@@ -355,7 +355,7 @@ body{
     font-size: 0.8rem;
     color:#ffffff;
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 603px) {
     .foot3-2{
         width:100%;
         clear:both;
@@ -363,7 +363,7 @@ body{
         margin-right: 0;
     }
 }
-@media screen and (max-width: 398px) {
+@media screen and (max-width: 466px) {
     .foot3-1{
         width:100%;
         text-align: center;
@@ -372,36 +372,77 @@ body{
         text-align: center;
     }
 }
-.navbtn{
-    float: right;
-    width:30px;
-    height: 30px;
-    background-image: url(images/button.png);
-    background-size: 100% 100%;
-    border: none;
-    margin-top: 10px;
-    display: none;
-}
-.navbtn:focus{
-    outline: none;
-}
-#demo{
-    background-color:#29b078 ;
-    border-top: #b5b5b5 solid 1px;
-}
-.navcol{
-    font-size:1.2rem;
-    color:white;
-    text-align: center;
-    height:30px;
-    line-height: 30px;
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color:#186948 ;
 }
 
-@media screen and (max-width: 768px){
-    .navbtn{
-        display:inline-block;
-    }
-    .h2-1{
-        display: none;
+.navbar-inverse .navbar-toggle {
+    border-color: #29b078;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #29b078;
+}
+.navbar-inverse .navbar-collapse{
+    background-color: #29b078;
+}
+.navbar-inverse {
+    background-color:#29b078;
+    border: none;
+}
+.navbar-collapse{
+    border: none;
+}
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.navfont{
+    font-size: 1.5rem;
+    color: white;
+
+}
+.navli{
+    margin:0 auto;
+    width:4.5rem;
+}
+
+.navli:hover{
+    border-bottom: solid 1px white;
+    margin-bottom: -1px;
+}
+.nav>li>a{
+    padding:15px 0;
+}
+.h1-t1{
+    font-size: 2rem;
+    color:#ffffff;
+}
+.h1-t2{
+    font-size: 0.8rem;
+    color:#ffffff;
+}
+.container{
+    width:70%;
+    padding:0;
+}
+.navbar-collapse{
+    padding:0;
+}
+.navbar-nav{
+    width: 100%;
+    margin:0;
+}
+
+.header1-2-2{
+    float: left;
+    margin:0.6rem 0 0 1.5rem ;
+}
+
+@media screen and (min-width: 768px){
+    .header1-2-2{
+        margin-top:0.6rem   ;
+        margin-left:0;
     }
 }
