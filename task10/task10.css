@@ -4,18 +4,18 @@
     font-size: 62.5%;
 }
 .headtop{
-    height:20px;
+    height:2rem;
     background-color: #1d7ad9;
     text-align: center;
 }
 .headtop1{
     width:70%;
-    height:20px;
+    height:2rem;
     display: inline-block;
 }
 .top-text1,.top-text2,.top-text3{
-    height:20px;
-    line-height: 20px;
+    height:2rem;
+    line-height: 2rem;
     color:white;
     background-color: inherit;
     border: none;
@@ -41,7 +41,7 @@
     outline: none;
 }
 .headsecond{
-    height:50px;
+    height:5rem;
     background-color: #f9f9f9;
     text-align: center;
 }
@@ -70,7 +70,7 @@
 }
 .process1{
     width:70%;
-    height:60px;
+    height:6rem;
     display:inline-block;
     position: relative;
     padding-top: 2rem;
@@ -80,7 +80,7 @@
 }
 .step1{
     width:7rem;
-    height:4px;
+    height:0.4rem;
     background-color: #cccccc;
     border-radius: 2px;
     position: absolute;
@@ -90,7 +90,7 @@
 }
 .step2{
     width:7rem;
-    height:4px;
+    height:0.4rem;
     background-color: #cccccc;
     border-radius: 2px;
     position: absolute;
@@ -100,7 +100,7 @@
 }
 .step3{
     width:7rem;
-    height:4px;
+    height:0.4rem;
     background-color: #cccccc;
     border-radius: 2px;
     position: absolute;
@@ -110,7 +110,7 @@
 }
 .step4{
     width:7rem;
-    height:4px;
+    height:0.4rem;
     background-color: #cccccc;
     border-radius: 2px;
     position: absolute;
@@ -250,18 +250,18 @@
 }
 .radioicon1,.radioblueicon1{
     position: absolute;
-    top:29px;
-    left:30px;
+    top:2.9rem;
+    left:3rem;
 }
 .radioicon2,.radioblueicon2{
     position: absolute;
-    top:29px;
-    left:96px;
+    top:2.9rem;
+    left:9.6rem;
 }
 .radioicon3,.radioblueicon3{
     position: absolute;
-    top:29px;
-    left:163px;
+    top:2.9rem;
+    left:16.3rem;
 }
 
 .radio1 .radiotext1 .radioblue:checked+.radioblueicon1{
@@ -308,13 +308,13 @@ option{
 }
 .radioicon4,.radioblueicon4{
     position: absolute;
-    top:30px;
-    left:31px;
+    top:3rem;
+    left:3.1rem;
 }
 .radioicon5,.radioblueicon5{
     position: absolute;
-    top:63px;
-    left:31px;
+    top:6.3rem;
+    left:3.1rem;
 }
 .radio2 .radiotext1 .radioblue:checked+.radioblueicon4{
     visibility: visible;
@@ -344,28 +344,28 @@ option{
 }
 .radioicon6,.radioblueicon6{
     position: absolute;
-    top:29px;
-    left:31px;
+    top:2.9rem;
+    left:3.1rem;
 }
 .radioicon7,.radioblueicon7{
     position: absolute;
-    top:29px;
-    left:120px;
+    top:2.9rem;
+    left:12rem;
 }
 .radioicon8,.radioblueicon8{
     position: absolute;
-    top:29px;
-    left:213px;
+    top:2.9rem;
+    left:21.3rem;
 }
 .radioicon9,.radioblueicon9{
     position: absolute;
-    top:29px;
-    left:307px;
+    top:2.9rem;
+    left:30.7rem;
 }
 .radioicon10,.radioblueicon10{
     position: absolute;
-    top:29px;
-    left:400px;
+    top:2.9rem;
+    left:40rem;
 }
 .radio1 .radiotext1 .radioblue:checked+.radioblueicon6{
     visibility: visible;
@@ -454,27 +454,27 @@ option{
 }
 @media screen and (max-width: 706px){
    .thirdform{
-       width:350px;
+       width:35rem;
    }
     .radiotext2{
         margin-left:4.5rem;
     }
     .radioicon9,.radioblueicon9{
         position: absolute;
-        top:54px;
-        left:31px;
+        top:5.4rem;
+        left:3.1rem;
     }
     .radioicon10,.radioblueicon10{
         position: absolute;
-        top:54px;
-        left:120px;
+        top:5.4rem;
+        left:12rem;
     }
     .foot1text2{
         float: right;
     }
     .formedia{
         float:none;
-        width:160px;
+        width:16rem;
         margin:4rem auto 0;
     }
 }
@@ -490,8 +490,8 @@ option{
     }
     .radioicon5,.radioblueicon5{
         position: absolute;
-        top:100px;
-        left:31px;
+        top:10rem;
+        left:3.1rem;
     }
     .foottext1,.foot1text2{
         float: none;
