@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%; }
+
+html {
+  max-width: 70rem;
+  background: #eff0f4;
+  margin: 0 auto; }
+
+.header {
+  height: 4.6rem;
+  background: #68cdd5;
+  color: #ffffff;
+  position: relative;
+  margin-bottom: 1rem; }
+
+.register {
+  font-size: 1.6rem;
+  position: absolute;
+  left: 1rem;
+  line-height: 4.6rem; }
+
+.login {
+  font-size: 1.8rem;
+  font-weight: 200;
+  position: absolute;
+  left: 50%;
+  margin-left: -2rem;
+  line-height: 4.6rem; }
+
+.close {
+  font-size: 1.6rem;
+  position: absolute;
+  right: 1rem;
+  line-height: 4.6rem; }
+
+.phone {
+  width: 100%;
+  height: 5.6rem;
+  background: url(images/iphone.png) #ffffff no-repeat 2rem center;
+  background-size: 1.9rem 2.9rem; }
+
+.test1 {
+  height: 2.9rem;
+  border: none;
+  font-size: 1.5rem;
+  outline: none;
+  margin: 1.35rem 0 1.35rem 6rem;
+  padding-left: 2rem;
+  border-left: 1px solid #eaedee; }
+
+.lock {
+  width: 100%;
+  height: 5.6rem;
+  background: url(images/locked.png) #ffffff no-repeat 2rem center;
+  background-size: 1.9rem 2.9rem;
+  margin: 0.5rem 0; }
+
+.button {
+  width: 100%;
+  height: 56px;
+  margin: 0.5rem 0;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  color: #ffffff;
+  background: #68cdd5; }
+
+.bottom {
+  font-size: 1.2rem;
+  color: #68cdd5;
+  text-decoration: underline;
+  float: right;
+  margin-right: 1rem; }
+
+/*# sourceMappingURL=task11.css.map */
