@@ -45,7 +45,7 @@ function getid() {
                 btn.value = "法官查看";
             }
             else{
-                var jump = window.open('../task3/js3-2.html');
+                window.location.href= ('js3-2.html');
             }
 
 }

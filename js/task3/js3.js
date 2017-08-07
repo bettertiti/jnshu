@@ -101,7 +101,7 @@ function start() {
             playarr[playlen - k - 1] = playinstand;
         }
         localStorage.setItem("playdata",JSON.stringify(playarr));
-        var jump = window.open('js3-1.html');
+        window.location.href=('js3-1.html');
     }
 
 
