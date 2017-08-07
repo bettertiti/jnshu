@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="js3.css">
+    <title>Title</title>
+</head>
+<body>
+<div class="header">
+    <input class="head-lf" type="image" src="images/Back%20_%20Icon.png" width="15" height="25">
+    <span class="head-cr">参数设置</span>
+    <input class="head-rt" type="image" src="images/circled-help.png" width="25" height="25">
+</div>
+<div class="mainbody">
+    <div class="m1">
+        <div class="m1-lf">
+            玩家配比
+        </div>
+        <div class="m1-rt">
+            <div class="m1-rt-role" >
+                 <ul class="square" id="role">
+
+                 </ul>
+            </div>
+            <div class="m1-rt-setting">
+                <input class="setting" type="button" onclick="killplay()" value="点击设置">
+                <img src="images/pencil.png" width="10" height="10">
+            </div>
+        </div>
+    </div>
+    <div class="m2">
+
+    </div>
+    <div class="play">
+        <div class="player">
+                玩家人数
+            <input type="text" name="playform" id="playnum" value="0" onblur="inputplayer()">
+                人
+            <div class="slider">
+                <input class="btnminus" type="button" onclick="minus()">
+                <input type="range" name="playform" id="playscroll" value="0"  min="4" max="18"  oninput="change()" onchange="change()">
+                <input class="btnplus" type="button" onclick="plus()">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="btnstart">
+        <input id="startbtn" class="start" type="button" onclick="start()" value="玩家发牌">
+    </div>
+</div>
+
+
+</body>
+<script type="text/javascript" src="js3.js">
+
+</script>
+</html>
