@@ -68,22 +68,25 @@ a {
   flex-wrap: wrap;
 
 }
-#result div{
+.wrap{
+  border:1px solid white;
+  margin:1rem;
+}
+.text{
   font-size:1.7rem;
   color:black;;
   width:7rem;
-  height: 7.5rem;
-  line-height: 5.6rem;
+  height: 5.5rem;
+  line-height: 5.5rem;
   background-color:#f5c97b;
   text-align: center;
-  margin:1rem 1rem 0;
-  border:1px solid white;
+
 }
-#result div div{
+.num{
   font-size:1.7rem;
   color:black;;
-  width:6.934rem;
-  height:1.894rem;
+  width:7rem;
+  height:2rem;
   line-height: 2rem;
   background-color:#83b09a;
   text-align: center;

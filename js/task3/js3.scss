@@ -62,7 +62,8 @@ body{
   text-align: center;
   display: flex;
   align-items: center;
-  width:1.5rem;
+  justify-content: center;
+  width:1rem;
   font-size:1.5rem;
   padding:0 1.5rem;
   background-color: white;
@@ -72,12 +73,11 @@ body{
   flex-grow:1;
 }
 .m1-rt-role{
-  height:30rem;
+  height:27rem;
   overflow-y:auto;
 }
-.m1-rt-role ul li{
-  list-style :square inside;
-}
+
+
 .m1-rt-setting{
   display: flex;
   align-items: center;
@@ -88,14 +88,16 @@ body{
   border-top: solid 1px #d9d9d9;
 }
 #role{
-  width:24rem;
+  width:26rem;
   margin:2rem auto;
 }
 #role li{
-  font-size: 1.3rem;
-  margin:1rem;
+  font-size: 1.2rem;
+  margin:1rem 0 1rem 0.5rem;
   color:#a1a1a1;
   float:left;
+  list-style :square inside;
+  width:42%;
 
 }
 .setting{
@@ -107,18 +109,18 @@ body{
 .m2{
   background-color: #fbfbfb;
   margin:1rem;
-  height:10rem;
+  height:6rem;
 }
 .play{
   background-color: #fbfbfb;
   margin:0 1rem;
 }
 .player{
-    height:10rem;
+    height:7rem;
     max-width:$maxwidth;
     margin:0 auto;
     font-size: 1.5rem;
-    padding:2rem 1rem 0;
+    padding:1rem 1rem 0;
 }
 #playnum{
   outline: none;

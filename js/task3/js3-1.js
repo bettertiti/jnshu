@@ -10,7 +10,6 @@ btn.value="查看"+(player.length-m)+"号身份";
 document.getElementById("circle").innerHTML="1";
 var playerlen=player.length;
 function getid() {
-         console.log(m)
             if(btn.value === "查看" + (player.length - m) + "号身份")
         {
             document.getElementById("idtext").style.display="block"
@@ -43,6 +42,7 @@ function getid() {
                 }
             else if((btn.value === "隐藏身份")){
                 btn.value = "法官查看";
+                document.getElementById("idtext").style.display = "none";
             }
             else{
                 window.location.href= ('js3-2.html');

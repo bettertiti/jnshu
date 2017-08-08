@@ -34,7 +34,9 @@ function minus(){
         document.getElementById("playnum").value=minus;
     }
 }
+var playarr=[];
 function killplay() {
+    playarr.length=0;
     var playnum=document.getElementById("playnum").value;
     if(playnum<4){
         confirm("请输入正确游戏人数")
@@ -42,7 +44,7 @@ function killplay() {
     else{
         var killer=Math.floor(playnum/4);
         var people=parseInt(playnum)-parseInt(killer);
-        var playarr=[];
+
         for (var i = 0; i<killer;i++) {
             playarr.push(0);
         }
@@ -79,31 +81,11 @@ function killplay() {
 
 function start() {
     var playnum=document.getElementById("playnum").value;
-    if(playnum<4){
-        confirm("请输入正确游戏人数");
-
+    if(playarr.length===0){
+        confirm("请点击设置");
     }
     else {
-        var killer = Math.floor(playnum / 4);
-        var people = parseInt(playnum) - parseInt(killer);
-        var playarr = [];
-        for (var i = 0; i < killer; i++) {
-            playarr.push(0);
-        }
-        for (var j = 0; j < people; j++) {
-            playarr.push(1);
-        }
-        var playlen = playarr.length;
-        for (var k = 0; k < playlen - 1; k++) {
-            var playindex = parseInt(Math.random() * (playlen - k));
-            var playinstand = playarr[playindex];
-            playarr[playindex] = playarr[playlen - k - 1];
-            playarr[playlen - k - 1] = playinstand;
-        }
-        localStorage.setItem("playdata",JSON.stringify(playarr));
         window.location.href=('js3-1.html');
     }
-
-
 
 }
