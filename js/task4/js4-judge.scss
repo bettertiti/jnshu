@@ -1,0 +1,170 @@
+*{
+  margin:0;
+  padding:0;
+  font-size:62.5%;
+}
+
+input:focus{
+  outline:none;
+}
+input{
+  border:none;
+}
+$maxwidth:52rem;
+a {
+  text-decoration:none
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width:100%;
+  height:4rem;
+  max-width:$maxwidth;
+  background-color: #29bde0;
+  padding-bottom: 1rem;
+  left:50%;
+  transform: translate(-50%);
+  position: absolute;
+}
+.head-lf{
+  margin-left: 1rem;
+}
+.head-rt{
+  margin-right: 1rem;
+}
+.head-cr{
+  font-size: 2rem;
+  color:white;
+  letter-spacing: 0.5rem;
+}
+.mainbody{
+  position: absolute;
+  max-width:$maxwidth;
+  background-color: #f0f0f0;
+  margin:0 auto;
+  bottom: 8rem;
+  left:0;
+  right:0;
+  top:5rem;
+  overflow-y: auto;//margin垂直叠加
+
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  max-width:$maxwidth;
+  height:8rem;
+  left:50%;
+  transform: translate(-50%);
+  background-color: #29bde0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#over{
+  flex-grow: 1;
+  height:5rem;
+  background-color: #fbb435;
+  color:white;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  cursor: pointer;
+  margin:0 1rem;
+  border-radius: 10px;
+}
+#diary{
+  @extend #over;
+}
+.wrap{
+
+}
+.day{
+  width:90%;
+  margin:1rem auto;
+  height:3rem;
+  background-color: white;
+  color:#29bde0;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 3rem;
+}
+.container{
+  width:90%;
+  margin:1rem auto;
+  background-color: white;
+
+}
+.moon{
+  position: absolute;
+  width:2.6rem;
+  height:2.6rem;
+  border-radius: 3rem;
+  border:2px solid #c9c9c9;
+  top:2rem;
+  background: white url(images/moon.png) no-repeat center center;
+  background-size: 80% 80%;
+  z-index: 1;
+}
+.sun{
+  position: absolute;
+  width:2.6rem;
+  height:2.6rem;
+  border-radius: 3rem;
+  border:2px solid #c9c9c9;
+  top:7rem;
+  background: white url(images/sun.png) no-repeat center center;
+  background-size: 80% 80%;
+  z-index: 1;
+}
+.listicon{
+  width:0.2rem;
+  height:16rem;
+  background-color: #c9c9c9;
+  margin-top:1rem;
+  position: absolute;
+  left:1.4rem;
+  top:1rem;
+
+}
+.procedure{
+  width:86%;
+  margin-left:16%;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+.step1{
+  width:18rem;
+  height:3rem;
+  //background: url(images/step.png)no-repeat 0 center ;
+  //background-size: 100% 100%;
+  background-color: #29bde0;
+  color:white;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height:3rem;
+  margin:2rem auto;
+}
+.step2,.step3,.step4{
+    width:18rem;
+    height:3rem;
+    background-color: #29bde0;
+    color:white;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height:3rem;
+    margin:1rem auto;
+}
+.daytext{
+  font-size:1rem;
+  color:#8a8b87;
+  margin-top: -1rem;
+}
+.nighttext{
+  font-size:1rem;
+  color:#8a8b87;
+  margin-top: -1rem;
+}
