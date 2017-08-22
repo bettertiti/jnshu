@@ -57,6 +57,7 @@ body,.header1,.mainbody,.footer1{
   text-align: center;
   background-color: #29bde0;
   padding-top:1rem;
+  position: absolute;
 }
 .task7-3{
   width: 24.57rem;
@@ -94,6 +95,13 @@ body,.header1,.mainbody,.footer1{
   font-size:1.5rem;
   text-align: left;
   line-height: 3rem;
+}
+.wrapm2{
+  width:100%;
+  position: absolute;
+  top:25.2rem;
+  bottom: 6rem;
+  overflow-y: auto;
 }
 .m2{
   width:100%;

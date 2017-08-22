@@ -40,8 +40,13 @@ a {
 .mainbody {
   max-width: 52rem;
   background-color: #29bde0;
-  margin: 5rem auto 8rem;
-  bottom: 8rem; }
+  position: absolute;
+  top: 5rem;
+  bottom: 8rem;
+  left: 50%;
+  transform: translate(-50%);
+  overflow-y: auto;
+  width: 100%; }
 
 .wrap {
   width: 27.6rem;
