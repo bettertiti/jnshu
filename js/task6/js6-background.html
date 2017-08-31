@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="js6-background.css" rel="stylesheet">
+</head>
+<body>
+<div class="container" data-ng-app="myApp">
+    <div class="row" >
+        <div class="col-xs-12 col-sm-3 "  >
+            <nav class="navbar navbar-default" role="navigation">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#example-navbar-collapse">
+                        <span class="sr-only">切换导航</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <span class="header-text2 glyphicon glyphicon-off" aria-hidden="true"></span>
+                    <span class="line1"></span>
+                    <div class="header-text1">admin</div>
+                    <span class="line1"></span>
+                    <div class="navbar-brand">萝卜多后台管理系统</div>
+                </div>
+
+                <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li  ui-sref="manage"><a href="">信息管理</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                               Artical管理
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li  ui-sref="articallist"><a href="">Artical列表</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+        <div class="col-xs-12 col-sm-9 "  >
+            <div class="header-rt">
+                <span class="header-text2 glyphicon glyphicon-off" aria-hidden="true"></span>
+                <span class="line1"></span>
+                <div class="header-text1">admin</div>
+                <span class="line1"></span>
+
+            </div>
+            <div class="contain-rt">
+                <div data-ui-view="">Welcome</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://cdn.bootcss.com/angular.js/1.4.6/angular.min.js"></script>
+<script src="https://cdn.bootcss.com/angular-ui-router/1.0.3/angular-ui-router.js"></script>
+<script src="app.js"></script>
+</html>
